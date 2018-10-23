@@ -1,6 +1,7 @@
 # Distributed Consesus
 
 Speaker: Heidi Howard
+Twitter: @heidiann360
 
 Find slides: Speaker too quick
 Summary: https://www.reactivesummit.org/2018/schedule/liberating-distributed-consensus
@@ -89,13 +90,42 @@ Only one value should ever be decided
 if none 
  - Client provises a new value to servers 
 
+### Quorum intersection
+
+ - Original requirement - Paxos requires that each of its two phaes use a quorum of servers and 
+that any two quriousms must interect 
+ - Revised requirement - A client in epoch e must get at least one server to
+
+### Early completion of reading phase 
+
+### Value selection
+
+  - Original requirement - Paxos requires that the value with the great epcoh is provised in 
+phased two .. No values were [missed]
+  - Revised requirement - [missed] 
 
 ## Sketch 3 new algorithms made possible by abstaction
+
+ - Co-located consensus 
+  - Goal in colated ssytem - quicker to make agreement
+ - Supermajority consesnsus
+   - Allow any client to decide a value  ( missed rest)
+   - Needs 4/5 servers are up and no colusions occur 
+   - Con - 2 rtts are needed if 2 or more servers are slow/unavialble or a colision occures
+   - Clients proposiing the same value do not collide
+
+ - Binary consesus - Binar decision algorithm in which any client can decide [missed]
+    - cons: Clients propising value 1 need 2 rtts to compete [assumed 0] 
+     - only works for reaching a consensus over binary
+    - pro- clients proposiing the same value do not colide
 
 ## Summary 
  - Safety - immutable is safe and tracking
  - Flexibility - choose own strategy 
 
+## Closing Remarks 
+ 
+ Paxos is a single point on a broad and diverse spectrum of consensus algorithms. 
 
 ## Question
 
