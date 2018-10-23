@@ -7,6 +7,8 @@ This is a collection of notes that were taken at the Reactive Streams 2018 confe
 
  * [FilioDB](filiodb.md)
  * [DistributedConcensus](distributedconsensus.md)
+ * [Who Is There](whoisthere.md)
+ * [Akka Cluster Vs Kubernetes] (akkakubernetes.md)
 
 
 
