@@ -11,3 +11,4 @@ This is a collection of notes that were taken at the Reactive Streams 2018 confe
  * [Akka Cluster Vs Kubernetes](akkakubernetes.md)
  * [Akka on Kubernetes](akka_on_k8.md)
  * [Akka Supervision](akkasupervision.md)
+ * [Akka Streams and Music](akkastreamsmusic.md)
