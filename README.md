@@ -13,3 +13,4 @@ This is a collection of notes that were taken at the Reactive Streams 2018 confe
  * [Akka Supervision](akkasupervision.md)
  * [Akka Streams and Music](akkastreamsmusic.md)
  * [Chaos Engineering](chaosengineering.md)
+ * [Distributed Data and clustering](distributeddataandclustering.md)
