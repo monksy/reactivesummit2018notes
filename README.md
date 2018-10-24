@@ -12,3 +12,4 @@ This is a collection of notes that were taken at the Reactive Streams 2018 confe
  * [Akka on Kubernetes](akka_on_k8.md)
  * [Akka Supervision](akkasupervision.md)
  * [Akka Streams and Music](akkastreamsmusic.md)
+ * [Chaos Engineering](chaosengineering.md)
